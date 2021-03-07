@@ -1,0 +1,148 @@
+
+/* general styling for the overall page */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* commonly used colors i consolidated into a list of variables */
+:root{
+    --fwhite: #ffffff;
+    --weirdwhite: #d9dcd6;
+    --ltblue: #0072bb;
+}
+
+/* setting the overall background color of the webpage */
+body {
+    background-color: var(--weirdwhite);
+}
+
+
+/* setting the colors and padding on the nav bar as well as the header. child 
+modifiers are for the more intricate details like the individual colors on the
+Hori "seo" n. also sets up the design of the nav bar. */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: var(--fwhite);
+}
+
+/* setting up the header*/
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* seo colors */
+.header h1 .seo {
+    color: var(--weirdwhite);
+}
+
+/* setting up the nav bar */
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+
+/* styling the nav bar */
+.header nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* coloring the text on the nav bar and getting rid of the link underline */
+li a {
+    color: var(--fwhite);
+    text-decoration: none;
+}
+
+
+/* setting the text size for the  */
+p {
+    font-size: 16px;
+}
+
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+    margin-bottom: 32px;
+    color: var(--fwhite);
+}
+
+.benefits h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefits img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.articles {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: var(--ltblue);
+    color: var(--fwhite);
+}
+
+.articles img {
+    max-height: 200px;
+}
+
+.articles h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 20px;
+}
