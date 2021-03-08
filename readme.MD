@@ -7,9 +7,7 @@ What problem does it solve?
 What did you learn?
 - Divs can be literally anything
 ## Usage
-    ```md
     ![screenshot of pages](Assets/screenshot.png)
-    ```
 ## Credits
 Trilogy Education
 Me
